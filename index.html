@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+     body{
+      padding-top: 40px;
+      padding-bottom: 40px;
+     }
+
+     .avatar-image{
+      width: 128px;
+      height:128px;
+      object-fit: cover; 
+      border-radius: 128px;
+     }
+
+     .thumbnail{
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+     }
+    </style>
+
     <body>
       <!-- My content will go here-->
        <meta charset="UTF-8"> <!--This <meta> tag greatly expands which characters we can use in our HTML document like emojis.-->
-    </body>
+       <title>Arely Herrera's Links</title>
+       <style>
+        *{
+          border: thin blue solid;
+        }
+       </style>
   </head>
-</html>
+    </body>
+    <div> <!-- used to define a division or section in a web page-->
+      <div class= "main-container">
+        <div class= "image-row">
+          <img class= "avatar-image" src= "/thumbnails/UserProfilePicture.png" alt= "Arely Herrera headshot">
+          <!--We need to give it a class so that we can apply CSS rules to it-->
+        </div>
 
+        <div class = "name-row">
+          Arely Herrera
+        </div>
+
+        <div class= "social-icons-row">
+          <a href= "https://github.com/aherrera2001" target ="_blank">
+             <!-- _blank tells the browser to open the linked document in a new tab or window, rather than replacing the current page-->
+            GitHub
+          </a>
+
+          <a href= "https://www.linkedin.com/in/arely-her/" target= "_blank">
+            LinkedIn
+          </a>
+      </div>
+
+      <div class= "links-row">
+        <div class= "item">
+          <img class= "thumbnail" src= "/thumbnails/Michellin.jpg" alt= "Michellin Chicago">
+          <a target= "_blank" href= "https://guide.michelin.com/us/en/illinois/chicago/restaurants">
+            Chicago Michellin Restaurants
+          </a>
+        </div>
+
+        <div class= "item">
+          <img class= "thumbnail" src= "/thumbnails/Netflix.jpg" alt="Top Netflix Shows in USA 2025">
+          <a href="https://www.netflix.com/tudum/articles/top-10-may-26-2025" target= "_blank">
+            Top Netflix Shows 2025
+          </a>
+        </div>
+        
+        <div class= "item">
+          <img class= "thumbnail" src="/thumbnails/chicago-bean.jpg" alt="Chicago Bean">
+          <a href= "https://www.choosechicago.com/things-to-do/festivals-and-special-events/" target= "_blank">
+            Summer events in Chicago
+          </a>
+        </div>
+      </div>
+    </div>
 </html>
