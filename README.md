@@ -5,4 +5,4 @@ This is a static, mobile-friendly web page designed to serve as a "link in bio" 
 
 # How to Run
 1. Clone or download this repository.
-2. Open `index.html` in your web browser—no installation or build steps needed.
+2. Open `index.html` in your web browser, no installation or build steps needed.
